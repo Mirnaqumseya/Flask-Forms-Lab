@@ -8,7 +8,7 @@ app = Flask(  # Create a flask app
 )
 
 
-username = "llo2ay"
+username = "Mirna"
 password = "123"
 facebook_friends=["Loai","Yonathan","Adan", "George", "Fouad", "Celina"]
 
@@ -17,8 +17,6 @@ facebook_friends=["Loai","Yonathan","Adan", "George", "Fouad", "Celina"]
 def login():
   return render_template('login.html')
   
-
-
 
 if __name__ == "__main__":  # Makes sure this is the main process
 	app.run( # Starts the site
